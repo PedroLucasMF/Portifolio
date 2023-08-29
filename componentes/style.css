@@ -1,0 +1,42 @@
+body {
+    background-image: url(../imagens/backgound.jpg) ;
+    color: azure;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header {
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#perfil{
+    background-color: rgb(80, 80, 252);
+    margin: 0;
+    padding: 0;
+    
+}
+
+#pedro {
+    width: 60%;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+   
+}
