@@ -2,12 +2,12 @@ body {
     background-image: url(../imagens/backgound.jpg) ;
     color: azure;
     font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 55%, rgba(246,246,246,1) 96%);
 }
 
-header {
-    font-size: 25px;
-    margin: 10px;
-    padding-left: 20px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -23,20 +23,123 @@ div {
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    width: 100%;
 }
 
 #perfil{
-    background-color: rgb(80, 80, 252);
     margin: 0;
-    padding: 0;
+    padding: 7px;
+    display: flex;
+    flex-direction:row-reverse ;
+    font-size: 17px;
     
 }
 
 #pedro {
-    width: 60%;
+    width: 300px;
     border-radius: 50px;
-    margin: 0;
+    margin: 5px;
     padding: 0;
    
+}
+#habilidades{
+    padding-left: 150px;
+    display: flex;
+    width: 50%;
+    align-self: flex-start;
+}
+
+#icones{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+#nome{
+    padding-right: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    justify-content: space-between;
+    border-color: white;
+    color: black;
+  
+}
+.devicon{
+    width: 120px;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.colunas{
+    padding: 0;
+    margin: 0;
+}
+
+#habilijetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px
+    
+}
+
+#projetos{
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 300px;
+    bo
+   
+   
+    
+}
+
+#proje{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.cardP{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 5px;
+}
+
+#copyfoot{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.final{
+    width: 70px;
+    padding-top: 6px;
+}
+
+.final:hover{
+    transform: scale(1.5);
+    padding: 10px;
 }
