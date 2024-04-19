@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/capa.jpg");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+}
+
+#tela{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.349) 40%, rgb(0, 0, 0) 60%);
+    width: 100%;
+    height: 50vh;
+    align-self: last baseline;
+}
+#pedro{
+    width: 100px;
+    height: 100px;
+}
+#ftnome{
+    border: 1px solid rgb(255, 0, 0);
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#opcoes{
+    text-align: center;
+    border: 1px solid rgb(66, 1, 1);   
+    width: 100%;
+    height: 65%;
+}
